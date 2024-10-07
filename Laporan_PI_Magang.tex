@@ -1,0 +1,33 @@
+%Template Proposal PI/Magang
+%Departemen Teknik Elektro dan Informatika
+%Sekolah Vokasi UGM
+
+%Dikembangkan oleh Dr. Fahmizal, S.T., M.Sc. dan Tim
+
+%Perangkat lunak yang digunakan untuk mengolah LaTEX pada template ini adalah
+%- TeXstudio
+%- MiKTex
+%- Overleaf (LaTEX editor berbasis daring)
+
+
+\documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
+
+\input{chapters/identitas}
+\input{chapters/preambles}
+\input{chapters/database.hyphenate}
+
+\begin{document}
+\include{chapters/sampul}
+\pagenumbering{roman}
+\include{chapters/permohonan}
+\include{chapters/pengesahan}
+\include{chapters/daftarisi}
+\pagenumbering{arabic}
+\include{chapters/bab1}
+\include{chapters/bab2}
+\include{chapters/bab3}
+\include{chapters/bab4}
+\input{chapters/daftarpustaka}
+\input{chapters/lampiran1}
+\end{document}
+
